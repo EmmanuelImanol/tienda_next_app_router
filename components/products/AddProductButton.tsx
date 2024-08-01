@@ -2,6 +2,7 @@
 
 import { Product } from "@prisma/client"
 import { useStore } from "@/src/store"
+import { toast } from "react-toastify"
 
 type AddProductButtonProps = {
     product: Product

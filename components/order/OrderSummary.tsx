@@ -37,8 +37,8 @@ export default function OrderSummary() {
     }
     return (
         <>
-            <h1 className="font-black text-2xl mt-10">Mi pedido</h1>
-            {order.length === 0 ? <p className="text-center my-10">El carrito está vacio</p> : (
+            <h1 className="font-black text-2xl pt-10">Mi pedido</h1>
+            {order.length === 0 ? <p className="text-center py-10">El carrito está vacio</p> : (
                 <div className="my-5 bg-white p-5 rounded-lg shadow-lg">
                     {order.map(item => (
                         <ProductDetails 

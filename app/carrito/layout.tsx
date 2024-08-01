@@ -6,8 +6,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     return (
         <>
             <Header />
-            <div className="max-w-screen-xl w-[95%] m-auto">
-                <div className="mt-10">
+            <div className="max-w-screen-xl w-[95%] mx-auto">
+                <div className="pt-28">
                     <GoBackButton />
                 </div>
                 <main>

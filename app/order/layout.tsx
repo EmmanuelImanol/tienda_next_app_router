@@ -5,9 +5,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     return (
         <>
             <Header />
-            <div className="max-w-screen-xl w-[95%] m-auto">
-                <div className="mb-10">
-                    <h2 className="mt-7 font-black text-xl md:text-2xl">Categorias</h2>
+            <div className="max-w-screen-xl w-[95%] mx-auto pt-28">
+                <div className="pb-10">
+                    <h2 className=" font-black text-xl md:text-2xl">Categorias</h2>
                     <OrderSidebar />
                 </div>
 
